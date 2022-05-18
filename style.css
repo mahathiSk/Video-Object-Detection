@@ -1,0 +1,50 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Square Peg', cursive;
+    margin-top: 0px;
+    color: blue;
+}
+
+#start {
+    font-size: 20px;
+    font-weight: bolder;
+    color: greenyellow;
+}
+
+#number_of_objects {
+    font-size: 18px;
+}
+
+#status{
+    font-size: 18px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: yellow;
+    background-color: green;
+    text-align: center;
+    font-size: 15px;
+}
+
+canvas{
+    border: 3px dashed palevioletred;
+    border-radius: 15px;
+    margin-top: 130px;
+
+    animation-name: box;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes box{
+    from{box-shadow: 5px 5px 5px burlywood;}
+    to{box-shadow: 5px 5px 5px cyan}
+}
